@@ -1,0 +1,8 @@
+Al realizar una petición GET a la ruta http://localhost:3000/reportes después de registrar datos, el servidor devuelve un arreglo (array) en formato JSON con todos los reportes almacenados en la memoria. Si se ha registrado un reporte, el resultado se ve de la siguiente manera con su respectivo ID:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
