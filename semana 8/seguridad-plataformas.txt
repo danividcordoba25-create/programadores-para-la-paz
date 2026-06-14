@@ -1,0 +1,5 @@
+1. No exponer ni almacenar datos personales de los ciudadanos sin cifrado previo.
+2. Proteger las credenciales de administración mediante autenticación de dos factores (2FA).
+3. Usar conexiones seguras y certificados SSL (HTTPS) para todo el tráfico de la web.
+4. Registrar detalladamente los accesos y acciones críticas en un historial de auditoría (logs).
+5. Limitar estrictamente el acceso a la información sensible configurando roles y permisos de usuario mínimos.
