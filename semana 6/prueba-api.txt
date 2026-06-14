@@ -1,0 +1,7 @@
+Al enviar una petición POST a http://localhost:3000/registro con el JSON de prueba, el servidor responde con un estado 200 OK y devuelve un objeto JSON que confirma la recepción de la información estructurada de la siguiente manera:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
