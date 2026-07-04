@@ -1,0 +1,25 @@
+MODELO DE DATOS BÁSICO: PLATAFORMA DE CAUSAS BARRIALES
+
+Entidad 1: Causa
+
+Campos principales:
+- id (Entero, Clave Primaria, Autoincremental)
+- titulo (Texto, Obligatorio)
+- descripcion (Texto Largo, Obligatorio)
+- sector (Texto, Nombre del barrio o comuna)
+- fecha_creacion (Fecha/Hora de registro)
+
+Propósito:
+Almacenar de forma estructurada y permanente las solicitudes de infraestructura o bienestar social postuladas por la comunidad, sirviendo de inventario público para las auditorías.
+
+
+Entidad 2: Apoyo
+
+Campos principales:
+- id (Entero, Clave Primaria, Autoincremental)
+- causa_id (Entero, Clave Foránea vinculada a Causa)
+- id_usuario_anonimizado (Texto, Identificador seguro del votante)
+- fecha_apoyo (Fecha/Hora del voto)
+
+Propósito:
+Registrar los respaldos digitales y votos que recibe cada causa comunitaria de manera segura, permitiendo cuantificar el interés colectivo y priorizar proyectos sin comprometer datos confidenciales.

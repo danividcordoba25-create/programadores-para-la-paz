@@ -1,0 +1,9 @@
+Una plataforma de participación ciudadana requiere un equilibrio riguroso entre la utilidad técnica y el resguardo de la seguridad.
+La base de datos provee el soporte indispensable para otorgar permanencia, orden y memoria histórica a las evidencias recolectadas. Esto impide
+que el esfuerzo comunitario se disuelva en la informalidad o se pierda el rastro de las solicitudes del barrio.
+Asimismo, la autenticación de usuarios opera como una barrera de control necesaria para mitigar el riesgo de sabotajes digitales. Evita
+también ataques automatizados de bots o suplantación de votos que deslegitimarían las causas prioritarias de la comunidad afectada. Por otro
+lado, el diseño bajo principios de privacidad se vuelve una obligación moral y legal en entornos de veeduría social y política. Resguardar
+la información sensible blinda la integridad física y digital de los líderes comunitarios ante posibles represalias de actores externos. En
+conclusión, integrar estas tres capas tecnológicas garantiza una solución transparente, democrática y robusta que empodera colectivamente al territorio.
+Este enfoque metodológico asegura el éxito y la sostenibilidad de los proyectos tecnológicos con un alto impacto social a largo plazo.

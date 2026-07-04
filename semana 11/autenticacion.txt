@@ -1,0 +1,7 @@
+El proceso de login permite verificar la identidad de un usuario antes de darle acceso.
+Algunas rutas de la plataforma deben estar protegidas de forma estricta por seguridad.
+Estas secciones manejan la base de datos interna y la edición de los registros públicos.
+Un acceso desprotegido podría resultar en la manipulación malintencionada de reportes.
+Por motivos de privacidad y Habeas Data, no se debe exponer información confidencial.
+Bajo ninguna circunstancia se publicarán contraseñas, documentos, teléfonos o direcciones.
+De esta manera se resguarda la integridad de los datos de todos los líderes comunitarios.
