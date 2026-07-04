@@ -1,0 +1,13 @@
+BACKLOG DEL PROYECTO: VEEDURÍA DE OBRAS PÚBLICAS
+
+[PRIORIDAD ALTA - 1]
+Como ciudadano afectado, quiero registrar una incidencia (bache, obra abandonada, daño estructural) en el formulario web para dejar evidencia del estado real de la infraestructura del barrio.
+
+[PRIORIDAD ALTA - 2]
+Como coordinador de la veeduría, quiero recibir una alerta automatizada en Telegram cada vez que se cree un reporte para revisarlo y derivarlo rápidamente al comité encargado.
+
+[PRIORIDAD MEDIA - 3]
+Como miembro del equipo técnico, quiero consultar el listado de reportes históricos en el sistema para hacer seguimiento al avance de las reparaciones estatales.
+
+[PRIORIDAD BAJA - 4]
+Como vecino interesado, quiero recibir un mensaje masivo mensual en el canal público de Telegram para enterarme de las asambleas de rendición de cuentas de los gobernantes.
