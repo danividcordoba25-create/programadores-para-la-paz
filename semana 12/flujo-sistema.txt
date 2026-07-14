@@ -1,0 +1,6 @@
+FLUJO DEL SISTEMA: PETICIÓN EN 3 CLICS
+1. Creación de la Causa: Un líder comunitario o ciudadano ingresa a la plataforma y crea una causa rellenando un formulario simple (título y descripción del problema).
+2. Almacenamiento en Backend: El servidor recibe la información de la causa y la registra de forma segura en la base de datos con un ID único.
+3. Recolección de Apoyos: Otros ciudadanos de la comunidad ingresan a la URL de la causa desde sus celulares y registran su respaldo digital con un solo clic.
+4. Conteo Dinámico: El backend actualiza la base de datos en tiempo real, sumando y contando cada apoyo recibido para la causa específica.
+5. Generación del Documento Formal: Al alcanzar la meta de respaldos o al solicitarlo el creador, el sistema compila los datos y genera automáticamente un documento PDF formal con la petición y el listado consolidado de apoyos para ser radicado ante las autoridades.
