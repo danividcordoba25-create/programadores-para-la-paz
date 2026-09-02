@@ -1,0 +1,4 @@
+DISEÑO DE AUTOMATIZACIÓN (n8n / Telegram)
+- Evento que activa la automatización: Registro exitoso de una nueva causa o cuando una causa alcanza un hito importante de apoyos (ej. 50 firmas).
+- Mensaje automático que se envía: "¡Atención Comunidad! Se ha registrado una nueva causa en la plataforma Petición en 3 Clics. Entra al sistema para conocer la iniciativa y sumar tu respaldo digital".
+- Información que NO debe enviarse por seguridad: Bajo el principio de minimización de datos y privacidad por diseño, jamás se deben enviar contraseñas de usuarios, números de cédula, números de teléfono, direcciones físicas, comentarios sensibles ni nombres completos de los firmantes para evitar filtraciones o riesgos en el territorio.

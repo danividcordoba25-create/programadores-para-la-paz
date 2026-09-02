@@ -1,0 +1,7 @@
+Resultados de las pruebas de rutas en el navegador:
+1. Al ingresar a http://localhost:3000:
+El navegador muestra el texto plano "Servidor activo". Esto sucede porque se ejecuta la ruta raíz ('/') mediante el método GET y el servidor responde confirmando que está encendido.
+2. Al ingresar a http://localhost:3000/saludo:
+El navegador muestra el texto "Hola comunidad". Express procesa la petición en la ruta específica '/saludo' y retorna ese mensaje de texto.
+3. Al ingresar a http://localhost:3000/mensaje/juan:
+El navegador muestra el texto "Hola juan". El servidor toma la palabra "juan" directamente desde la URL como un parámetro dinámico (:nombre) a través de `req.params`, y lo concatena en la respuesta. Si cambiamos "juan" por otro nombre, la respuesta cambia dinámicamente.

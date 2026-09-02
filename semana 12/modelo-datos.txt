@@ -1,0 +1,17 @@
+MODELO DE DATOS SIMPLE
+
+Entidad: Causa
+- id (Número único / Clave primaria)
+- titulo (Texto corto)
+- descripcion (Texto largo)
+- fecha (Fecha de creación)
+
+Explicación Causa: Esta entidad sirve para almacenar y organizar la información principal de cada problemática o solicitud comunitaria que se abre en la plataforma, permitiendo identificar de qué trata cada iniciativa.
+
+Entidad: Apoyo
+- id (Número único / Clave primaria)
+- causa_id (Número / Clave foránea que conecta con la entidad Causa)
+- nombre (Texto / Nombre del ciudadano que apoya)
+- fecha (Fecha y hora del apoyo)
+
+Explicación Apoyo: Esta entidad sirve para registrar de manera individual cada respaldo que recibe una causa específica. Al usar el campo 'causa_id', el sistema sabe exactamente a qué petición sumarle el apoyo, permitiendo el conteo dinámico sin mezclar las firmas de proyectos distintos.

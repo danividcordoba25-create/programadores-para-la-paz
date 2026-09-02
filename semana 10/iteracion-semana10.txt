@@ -1,0 +1,17 @@
+PLANIFICACIÓN DE LA ITERACIÓN 1
+
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: El registro de incidencias por parte del ciudadano en el formulario web.
+- Tarea 2: La recepción de alertas automáticas en Telegram para el coordinador.
+
+2. ¿Por qué son las más importantes?
+Son las más importantes porque constituyen el núcleo funcional mínimo (MVP) para que el canal de veeduría empiece a recolectar valor. Sin la captura de datos del ciudadano (formulario) y la alerta inmediata al equipo (Telegram), no existe insumo técnico sobre el cual trabajar ni coordinar acciones comunitarias. Las funciones de consulta e informes históricos pueden esperar a ciclos posteriores.
+
+3. ¿Qué significa para ti que una tarea esté "terminada"?
+Para mí significa que la funcionalidad cumple con el estándar de calidad acordado, aporta valor real al usuario sin generar riesgos y está integrada al repositorio general.
+
+Mis 4 criterios de terminado (Definition of Done - DoD):
+- Funciona correctamente: La funcionalidad cumple su propósito sin errores técnicos visibles.
+- Fue probada: Se validó que el formulario envía los datos y que el bot de Telegram los procesa.
+- Cumple con seguridad no sensible: Se verificó que ningún dato privado sea expuesto.
+- Quedó registrada en Git: El código y las configuraciones están en la rama correspondiente del repositorio.

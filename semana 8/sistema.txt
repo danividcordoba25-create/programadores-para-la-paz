@@ -1,0 +1,4 @@
+- uname -a: Este comando muestra toda la información del sistema operativo y del núcleo (kernel) de Linux, incluyendo el nombre de la máquina, la versión del kernel, la arquitectura del procesador y la fecha de compilación.
+- whoami: Este comando devuelve el nombre exacto del usuario actual que tiene la sesión activa en la terminal.
+
+Es sumamente útil conocer la información del sistema al administrar un servidor porque permite verificar si la arquitectura del procesador es compatible con el software que se desea instalar, auditar qué usuario tiene privilegios en momentos específicos y detectar si el sistema operativo requiere parches de seguridad críticos según su versión actual del kernel.

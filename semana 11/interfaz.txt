@@ -1,0 +1,15 @@
+DISEÑO DE INTERFAZ BÁSICA Y SEGURA
+
+1. Formulario para crear una causa:
+Una sección de acceso privado para usuarios autenticados que contiene campos de texto limpios para ingresar el título de la iniciativa, una descripción detallada de la problemática y un menú desplegable para seleccionar el barrio o sector afectado.
+
+2. Vista de causas disponibles:
+Un tablero de visualización público estructurado en tarjetas de lectura ágil, donde la comunidad puede examinar de manera transparente la lista completa de solicitudes vigentes, su fecha de publicación y el sector al que corresponden.
+
+3. Botón para apoyar una causa:
+Cada tarjeta de causa incluye un elemento interactivo (botón) que permite a los ciudadanos registrados registrar su respaldo digital con un solo clic.
+
+4. Contador de apoyos:
+Un indicador numérico dinámico integrado de forma visible en la tarjeta, el cual se actualiza en tiempo real mostrando el volumen de respaldos colectivos acumulados por la causa sin revelar quién votó.
+
+* Nota de privacidad: La interfaz gráfica está diseñada bajo parámetros estrictos de visualización segura, de modo que nunca expondrá nombres ni datos de contacto en las vistas públicas para blindar la identidad comunitaria.

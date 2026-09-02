@@ -1,0 +1,21 @@
+DISEÑO DEL FLUJO DE AUTOMATIZACIÓN RESPONSABLE
+
+1. ¿Qué evento activa el flujo?
+El flujo en n8n es activado por un nodo de tipo Webhook o Form Trigger cuando un ciudadano envía exitosamente un reporte de anomalía en una obra pública desde el formulario de la veeduría.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviará un mensaje estructurado y neutral al grupo privado de coordinadores:
+" ALERTA DE VEEDURÍA: Se ha recibido un nuevo reporte de infraestructura comunitaria.
+- Sector: Comuna 4
+- Categoría del daño: Vía pública deteriorada
+- Estado: Pendiente de validación humana.
+Por favor, ingrese al sistema administrativo para revisar el caso completo de manera segura."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Por estrictas razones de seguridad ciudadana y cumplimiento normativo de protección de datos, jamás se enviarán los siguientes datos sensibles:
+- Nombres y apellidos completos del denunciante.
+- Números de documento de identidad (cédula o DNI).
+- Direcciones exactas de domicilio de los denunciantes.
+- Números de teléfono o correos electrónicos personales.
+- Contraseñas o tokens de acceso al sistema.
+Evitar esta información resguarda la integridad de los líderes comunitarios contra posibles represalias.

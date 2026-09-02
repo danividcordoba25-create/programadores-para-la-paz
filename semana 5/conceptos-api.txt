@@ -1,0 +1,5 @@
+Análisis de la ruta POST /reporte:
+1. ¿Qué hace esta ruta?
+Esta ruta escucha peticiones HTTP bajo el método POST en la dirección '/reporte'. A diferencia de GET, no está diseñada para mostrar datos en pantalla, sino para recibir información que viene oculta en el cuerpo de la solicitud (req.body). Al procesarla, extrae la propiedad "mensaje" del JSON enviado y devuelve una respuesta estructurada confirmando que el reporte fue exitosamente procesado.
+2. ¿Para qué podría servir en una aplicación comunitaria?
+En el contexto de una comunidad digital, esta ruta sería el motor para recolectar información e incidencias enviadas por los vecinos. Por ejemplo, podría servir para que los ciudadanos envíen reportes de servicios públicos (como una luminaria rota, baches en la calle, o cortes de agua), para canalizar alertas de seguridad vecinal en tiempo real, o para postularse en los formularios de convocatorias y votaciones comunitarias de forma automatizada y segura.
